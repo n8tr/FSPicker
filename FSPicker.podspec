@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
 
   s.resources = 'FSPicker/Shared/Resources/fsImages.xcassets'
 
-  s.ios.dependency 'Filestack'
+  s.ios.dependency 'Filestack' = '0.3.9'
   s.ios.dependency 'GTMAppAuth'
   s.ios.dependency 'GoogleAPIClientForREST'
   s.ios.dependency 'GoogleAPIClientForREST/Drive'
